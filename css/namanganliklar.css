@@ -1,0 +1,552 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', "Rubik", sans-serif;
+
+}
+
+.conteiner {
+  border-top: 4px solid #295093;
+  width: 100%;
+  background: #F6F6F9;
+
+}
+
+.logotip {
+  width: 230px;
+  border-radius: 5px;
+  height: 33px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.header-top {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.valyuta {
+  margin: 0;
+  padding: 0;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  color: #7A7A7A;
+  list-style: none;
+}
+
+.valyuta span {
+
+  color: #285193;
+}
+
+.valyuta-menu {
+  margin-left: 30px;
+}
+
+.go {
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.search {
+  background-color: white;
+  vertical-align: middle;
+  border: none;
+  padding-top: 3px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.languages {
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #fff;
+}
+
+.teleg {
+  width: 19px;
+  height: 19px;
+}
+
+.padpisatsiya {
+  background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  border-radius: 5px;
+  border: none;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.padpisatsiya-link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  padding: 5px;
+}
+
+.header-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.teleg {
+  margin-right: 5px;
+}
+
+.background {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.pages-bar {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 21px 24px;
+  justify-content: space-between;
+}
+
+.pages-link {
+  text-decoration: none;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+
+  color: #515151;
+}
+
+.pages-link:active {
+  color: #295091;
+}
+
+.menu-pages {
+  margin-bottom: 40px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.teshkent {
+  width: 1200px;
+  height: 99px;
+}
+
+.conteiner-main {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.left-cection {
+  width: 50%;
+}
+
+.left-cection h2 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.type {
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px 16px;
+  background-color: #F1F1F1;
+  opacity: 0.7;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+textarea {
+
+  background: #F1F1F1;
+  opacity: 0.7;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px 16px;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.file-box {
+  width: 221px;
+  display: flex;
+  background: #FBFBFB;
+  opacity: 0.7;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px 16px;
+  margin-bottom: 30px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.file-box::after {
+  content: "";
+  background-image: url("/img/file.png");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+}
+
+.password {
+  width: 221px;
+  background: #FBFBFB;
+  opacity: 0.7;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px 16px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 30px;
+  color: #888888;
+}
+
+.file-label {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+
+  color: #888888;
+
+}
+
+.pass {
+  display: flex;
+  font-family: Song Myung;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 29px;
+  color: #000000;
+  align-items: center;
+
+}
+
+.pass p {
+  margin-left: 10px;
+  margin-top: -10px;
+  padding: 0;
+}
+
+.submit {
+  background: #295093;
+  border: 2px solid rgba(40, 81, 147, 0.54);
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 221px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 15px 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.section-right {
+  width: 510px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FFFFFF;
+  border: 2px solid #BCC3CD;
+  box-sizing: border-box;
+  box-shadow: -10px 10px 5px 0px #878791;
+  border-radius: 5px;
+  padding: 30px 20px;
+  margin-top: 70px;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+}
+
+.naman {
+  width: 329px;
+  height: 33px;
+  margin-left: auto;
+  margin-top: 13px;
+  margin-bottom: 35px;
+  display: block;
+}
+
+.menu-links p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: #888888;
+  padding: 0;
+}
+
+.menu-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-links li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-links a {
+  text-decoration: none;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: #888888;
+}
+
+.three-links img {
+  width: 32px;
+  height: 32px;
+  margin-left: 8px;
+
+}
+
+.padpisat {
+  display: flex;
+  background: #295091;
+  border-radius: 5px;
+  width: 150px;
+  padding: 10px 6px;
+}
+
+.padpisat img {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.padpisat p {
+  margin: 0;
+  padding: 0;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+
+
+}
+
+.googleplay img {
+  width: 111px;
+  height: 33px;
+}
+
+.googleplay {
+  width: 232px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rotate {
+  transition: transform 1s ease;
+
+}
+
+.rotate:hover {
+  transform: rotate(1080deg);
+  box-shadow: 0 0 10px #888888;
+  border-radius: 50%;
+}
+
+.hover {
+  transition: box-shadow 1s ease;
+  border-radius: 5px;
+}
+
+.hover:hover {
+  box-shadow: -7px 7px 3px #BCC3CD;
+}
+
+.text-shadow {
+  transition: text-shadow 1s ease;
+}
+
+.text-shadow:hover {
+  text-shadow: -5px -5px 3px #295093;
+}
+
+.footer {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.under-logo img {
+  width: 173px;
+  height: 21px;
+}
+
+main {
+  margin-bottom: 70px;
+}
+
+.under-logo {
+  padding: 11px 9px;
+  background: #133C82;
+  border-radius: 5px;
+  width: 192px;
+}
+.conteiner-footr{
+  background: #295093;
+}
+.footer-top {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.footer-top h2 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #FFFFFF;
+
+}
+.telegram-link{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #295093;
+  width: 132px;
+  text-align: center;
+  margin-left: 10px;
+}
+.telegram-link img{
+  width: 20px ;
+  height: 20px;
+  margin-right: 5px;
+margin-left: 10px;
+}
+.telegram-link p{
+  font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+
+}
+.footer-under{
+  display: flex;
+}
+.footer-right{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+hr{
+  border: none;
+  border-radius: 5px;
+width: 1200px;
+height: 3px;
+background: #133C82;
+margin-bottom: 50px;
+}
+.footer-left{
+  width: 365px;
+  color: white;
+  font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+margin-right: 100px;
+}
+.page-links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.page-links a{
+  text-decoration: none;
+  color: white;
+  font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+}
+.footer-left h3{
+  margin: 0;
+  margin-bottom: 20px;
+}
+.page-links li{
+  margin-bottom: 17px;
+}
+.four-link{
+  margin-right: 100px;
+}
